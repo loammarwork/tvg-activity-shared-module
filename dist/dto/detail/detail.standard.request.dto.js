@@ -16,16 +16,19 @@ const swagger_1 = require("@nestjs/swagger");
 class DetailStandardRequestBodyDTO {
 }
 __decorate([
+    (0, swagger_1.ApiProperty)({ example: '2d43-d3ae-22d2-5d2d' }),
     (0, class_validator_1.IsString)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)
 ], DetailStandardRequestBodyDTO.prototype, "activityId", void 0);
 __decorate([
+    (0, swagger_1.ApiProperty)({ example: '2023-06-16' }),
     (0, class_validator_1.IsISO8601)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)
 ], DetailStandardRequestBodyDTO.prototype, "from", void 0);
 __decorate([
+    (0, swagger_1.ApiProperty)({ example: '2023-06-17' }),
     (0, class_validator_1.IsISO8601)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)
