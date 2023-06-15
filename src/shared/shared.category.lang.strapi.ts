@@ -1,0 +1,32 @@
+// For translator map to this for make sure type safe for strapi config language
+export enum TVGActivityCategory {
+    TOUR = 'activities.category.tour',
+    ATTRACTION_AND_TICKETS = 'activities.category.attraction_and_tickets',
+    TOUR_AND_SIGHTSEEING = 'activities.category.tour_and_sightseeing',
+    FOOD_AND_DRINKS = 'activities.category.food_and_drinks',
+    RELAX_SPA_AND_BEAUTY = 'activities.category.relax_spa_and_beauty',
+    TRANSPORT = 'activities.category.transport',
+    HEALTH = 'activities.category.health',
+    WIFI_AND_SIM_CARD = 'activities.category.wifi_and_sim_card',
+    THEME_PARKS_AND_WATER_PARKS = 'activities.category.theme_parks_and_water_parks',
+    MUSEUMS_AND_GALLERIES = 'activities.category.museums_and_galleries',
+    ZOOS_AND_FARMS = 'activities.category.zoos_and_farms',
+    MUSICAL_THEATRE = 'activities.category.musical_theatre',
+    FULL_DAY_TOURS = 'activities.category.full_day_tours',
+    MULTI_DAY_TOURS = 'activities.category.multi_day_tours',
+    NATURE_AND_WILDLIFE_TOURS = 'activities.category.nature_and_wildlife_tours',
+    HERITAGE_AND_CULTURAL_TOURS = 'activities.category.heritage_and_cultural_tours',
+    CRUISES_SAILING_AND_WATER_TOURS = 'activities.category.cruises_sailing_and_water_tours',
+    RESTAURANT_AND_DINING_VOUCHERS = 'activities.category.restaurant_and_dining_vouchers',
+    DINNER_CRUISES = 'activities.category.dinner_cruises',
+    UP_TO_3_HOURS = 'activities.category.up_to_3_hours',
+    HOURS_3_TO_5 = 'activities.category.hours_3_to_5',
+    HOURS_5_TO_7 = 'activities.category.hours_5_to_7',
+    DAYS_1_TO_3 = 'activities.category.days_1_to_3',
+    DAYS_3_PLUS = 'activities.category.days_3_plus',
+    OTHER = 'activities.category.other',
+    SPORT_ACTIVITIES = 'activities.category.sport_activities',
+    WORKSHOP_ACTIVITIES = 'activities.category.workshop_activities',
+}
+
+export type TVGActivityCategoryValue = `${TVGActivityCategory}`;

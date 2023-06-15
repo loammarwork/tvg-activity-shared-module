@@ -1,0 +1,34 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TVGActivityCategory = void 0;
+var TVGActivityCategory;
+(function (TVGActivityCategory) {
+    TVGActivityCategory["TOUR"] = "activities.category.tour";
+    TVGActivityCategory["ATTRACTION_AND_TICKETS"] = "activities.category.attraction_and_tickets";
+    TVGActivityCategory["TOUR_AND_SIGHTSEEING"] = "activities.category.tour_and_sightseeing";
+    TVGActivityCategory["FOOD_AND_DRINKS"] = "activities.category.food_and_drinks";
+    TVGActivityCategory["RELAX_SPA_AND_BEAUTY"] = "activities.category.relax_spa_and_beauty";
+    TVGActivityCategory["TRANSPORT"] = "activities.category.transport";
+    TVGActivityCategory["HEALTH"] = "activities.category.health";
+    TVGActivityCategory["WIFI_AND_SIM_CARD"] = "activities.category.wifi_and_sim_card";
+    TVGActivityCategory["THEME_PARKS_AND_WATER_PARKS"] = "activities.category.theme_parks_and_water_parks";
+    TVGActivityCategory["MUSEUMS_AND_GALLERIES"] = "activities.category.museums_and_galleries";
+    TVGActivityCategory["ZOOS_AND_FARMS"] = "activities.category.zoos_and_farms";
+    TVGActivityCategory["MUSICAL_THEATRE"] = "activities.category.musical_theatre";
+    TVGActivityCategory["FULL_DAY_TOURS"] = "activities.category.full_day_tours";
+    TVGActivityCategory["MULTI_DAY_TOURS"] = "activities.category.multi_day_tours";
+    TVGActivityCategory["NATURE_AND_WILDLIFE_TOURS"] = "activities.category.nature_and_wildlife_tours";
+    TVGActivityCategory["HERITAGE_AND_CULTURAL_TOURS"] = "activities.category.heritage_and_cultural_tours";
+    TVGActivityCategory["CRUISES_SAILING_AND_WATER_TOURS"] = "activities.category.cruises_sailing_and_water_tours";
+    TVGActivityCategory["RESTAURANT_AND_DINING_VOUCHERS"] = "activities.category.restaurant_and_dining_vouchers";
+    TVGActivityCategory["DINNER_CRUISES"] = "activities.category.dinner_cruises";
+    TVGActivityCategory["UP_TO_3_HOURS"] = "activities.category.up_to_3_hours";
+    TVGActivityCategory["HOURS_3_TO_5"] = "activities.category.hours_3_to_5";
+    TVGActivityCategory["HOURS_5_TO_7"] = "activities.category.hours_5_to_7";
+    TVGActivityCategory["DAYS_1_TO_3"] = "activities.category.days_1_to_3";
+    TVGActivityCategory["DAYS_3_PLUS"] = "activities.category.days_3_plus";
+    TVGActivityCategory["OTHER"] = "activities.category.other";
+    TVGActivityCategory["SPORT_ACTIVITIES"] = "activities.category.sport_activities";
+    TVGActivityCategory["WORKSHOP_ACTIVITIES"] = "activities.category.workshop_activities";
+})(TVGActivityCategory = exports.TVGActivityCategory || (exports.TVGActivityCategory = {}));
+//# sourceMappingURL=shared.category.lang.strapi.js.map
