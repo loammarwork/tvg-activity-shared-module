@@ -1,3 +1,3 @@
-export declare class CancelStandardResponseBodyDTO {
+export declare class CancelStandardRequestBodyDTO {
     bookingReference: string;
 }

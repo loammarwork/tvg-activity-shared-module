@@ -9,14 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CancelStandardResponseBodyDTO = void 0;
+exports.CancelStandardRequestBodyDTO = void 0;
 const class_validator_1 = require("class-validator");
-class CancelStandardResponseBodyDTO {
+class CancelStandardRequestBodyDTO {
 }
 __decorate([
     (0, class_validator_1.IsString)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)
-], CancelStandardResponseBodyDTO.prototype, "bookingReference", void 0);
-exports.CancelStandardResponseBodyDTO = CancelStandardResponseBodyDTO;
+], CancelStandardRequestBodyDTO.prototype, "bookingReference", void 0);
+exports.CancelStandardRequestBodyDTO = CancelStandardRequestBodyDTO;
 //# sourceMappingURL=cancel.standard.request.dto.js.map
