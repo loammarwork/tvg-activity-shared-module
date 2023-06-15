@@ -17,13 +17,13 @@ const class_transformer_1 = require("class-transformer");
 class PaginationSearchStandardRequestBodyDTO {
 }
 __decorate([
-    (0, swagger_1.ApiProperty)(),
+    (0, swagger_1.ApiProperty)({ example: 10 }),
     (0, class_validator_1.IsNumber)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", Number)
 ], PaginationSearchStandardRequestBodyDTO.prototype, "itemsPerPage", void 0);
 __decorate([
-    (0, swagger_1.ApiProperty)(),
+    (0, swagger_1.ApiProperty)({ example: 1 }),
     (0, class_validator_1.IsNumber)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", Number)
@@ -32,19 +32,19 @@ exports.PaginationSearchStandardRequestBodyDTO = PaginationSearchStandardRequest
 class SearchStandardRequestBodyDTO {
 }
 __decorate([
-    (0, swagger_1.ApiProperty)(),
+    (0, swagger_1.ApiProperty)({ example: 'Bangkok' }),
     (0, class_validator_1.IsString)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)
 ], SearchStandardRequestBodyDTO.prototype, "keyword", void 0);
 __decorate([
-    (0, swagger_1.ApiProperty)(),
+    (0, swagger_1.ApiProperty)({ example: '2023-06-16' }),
     (0, class_validator_1.IsISO8601)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)
 ], SearchStandardRequestBodyDTO.prototype, "from", void 0);
 __decorate([
-    (0, swagger_1.ApiProperty)(),
+    (0, swagger_1.ApiProperty)({ example: '2023-06-17' }),
     (0, class_validator_1.IsISO8601)(),
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", String)

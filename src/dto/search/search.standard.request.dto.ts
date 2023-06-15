@@ -4,29 +4,29 @@ import { ApiProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 
 export class PaginationSearchStandardRequestBodyDTO {
-    @ApiProperty()
+    @ApiProperty({ example: 10 })
     @IsNumber()
     @IsNotEmpty()
     itemsPerPage: number;
 
-    @ApiProperty()
+    @ApiProperty({ example: 1 })
     @IsNumber()
     @IsNotEmpty()
     page: number;
 }
 
 export class SearchStandardRequestBodyDTO {
-    @ApiProperty()
+    @ApiProperty({ example: 'Bangkok' })
     @IsString()
     @IsNotEmpty()
     keyword: string;
 
-    @ApiProperty()
+    @ApiProperty({ example: '2023-06-16' })
     @IsISO8601()
     @IsNotEmpty()
     from: string;
 
-    @ApiProperty()
+    @ApiProperty({ example: '2023-06-17' })
     @IsISO8601()
     @IsNotEmpty()
     to: string;
